@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nextjs-fastapi-template"
+version = "0.1.0"
+description = ""
+authors = ["thebestclicer", "qwertyu_alex"]
+readme = "README.md"
+packages = [{include = "nextjs_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "0.100.1"
+uvicorn = {version = "0.23.2", extras = ["standard"]}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
