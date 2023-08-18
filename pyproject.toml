@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["thebestclicer", "qwertyu_alex"]
 readme = "README.md"
-packages = [{include = "nextjs_fastapi"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
