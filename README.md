@@ -1,7 +1,5 @@
 ## OBS: Fork from https://github.com/digitros/nextjs-fastapi
 
-Readme has not been modified from original fork. Feel free to help.
-
 <p align="center">
   <a href="https://nextjs-fastapi-starter.vercel.app/">
     <img src="https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png" height="96">
@@ -16,6 +14,9 @@ Readme has not been modified from original fork. Feel free to help.
 ## Introduction
 
 This is a hybrid Next.js + Python app that uses Next.js as the frontend and FastAPI as the API backend. One great use case of this is to write Next.js apps that use Python AI libraries on the backend.
+Uses OpenAPI to glue the TypeScript and Python code bases together in a typesafe manner.
+
+Assumes the user uses pnpm and poetry for package management.
 
 ## How It Works
 
@@ -35,14 +36,14 @@ https://nextjs-fastapi-starter.vercel.app/
 
 You can clone & deploy it to Vercel with one click:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdigitros%2Fnextjs-fastapi%2Ftree%2Fmain)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fthebestclicker%2Fnextjs-fastapi-template%2Ftree%2Fmain)
 
 ## Developing Locally
 
 You can clone & create this repo with the following command
 
 ```bash
-npx create-next-app nextjs-fastapi --example "https://github.com/digitros/nextjs-fastapi"
+npx create-next-app nextjs-fastapi --example "https://github.com/thebestclicker/nextjs-fastapi-template"
 ```
 
 ## Getting Started

@@ -8,7 +8,8 @@
     "dev": "concurrently \"pnpm run next-dev\" \"cross-env NODE_ENV=\"development\" pnpm run fastapi-dev\"",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "poetry install"
   },
   "dependencies": {
     "@types/node": "20.2.4",
