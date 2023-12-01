@@ -1,5 +1,3 @@
-## OBS: Fork from https://github.com/digitros/nextjs-fastapi
-
 <p align="center">
   <a href="https://nextjs-fastapi-starter.vercel.app/">
     <img src="https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png" height="96">
